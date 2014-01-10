@@ -2,7 +2,7 @@ module ApplicationHelper
 
 	#Default title.
 	def full_title(page_title)
-		base_title = "This is the Default Title"
+		base_title = "Ruby on Rails Tutorial Sample App"
 		if page_title.empty?
 			base_title
 		else
